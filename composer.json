@@ -69,16 +69,20 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https:\/\/packages.frdl.de"
-        },  
+            "url": "https:\/\/api.webfan.de/apps/packages/"
+        }, 
         {
             "type": "composer",
             "url": "https:\/\/packages.frdl.de"
-        },  
+        }, 
         {
             "type": "composer",
-            "url": "https:\/\/packages.frdl.de"
-        }  
+            "url": "https:\/\/directory.frdl.de"
+        }  ,  
+        {
+            "url": "https://github.com/vendor-patch/nette.reflection.git",
+            "type": "git"
+        }
     ], 
     "config": {  
          "platform-check": false
@@ -86,7 +90,7 @@
     "authors": [
         {
             "name": "Contributors",
-            "homepage": "http://api.webfan.de/${container.identifier}/${project.identifier}/${package.vendor}/${package.name}/meta/contributors"
+            "homepage": "https://api.webfan.de/${container.identifier}/${project.identifier}/${package.vendor}/${package.name}/meta/contributors"
         },
         {
             "name": "${package.authors.0.name}",
@@ -123,7 +127,7 @@
 	 "spatie/temporary-directory": "*",
 	  "nelexa/zip" : "*",
 	 "nette/caching" :"*",
-		 "nette/reflection":"*",
+		"vendor-patch/nette.reflection":"*",
 			 "bamarni/composer-bin-plugin":"*",
 	  "nette/php-generator":"*",
 				   "padraic/phar-updater":"*",

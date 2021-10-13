@@ -2,9 +2,9 @@
     "name": "vendor-patch/codebase-vendor-packages-collection",
     "type": "webfan-shared",
     "description": "Codebase API related packages...",
-    "keywords": [ "autoload", "loader", "codebase", "frdlweb", "webfan-module" ,   "webfan-${package.webfantizing}",   "source"],
+    "keywords": [ "autoload", "loader", "codebase", "frdlweb", "webfan-module" ,   "webfan-application-package",   "source"],
     "homepage": "https://registry.frdl.de/codebase/${package.vendor}/${package.name}",
-    "license": "${package.license.key}",
+    "license": "MIT",
      "minimum-stability":"dev",
         "installer-types": [
                              "oidplus-plugin", 
@@ -92,10 +92,10 @@
             "homepage": "https://api.webfan.de/${container.identifier}/${project.identifier}/${package.vendor}/${package.name}/meta/contributors"
         },
         {
-            "name": "${package.authors.0.name}",
-            "email": "${package.authors.0.emai}",
-            "homepage": "${package.authors.0.homepage}",
-            "role": "${package.authors.0.role}"
+            "name": "Till Wehowski",
+            "email": "software@frdl.de",
+            "homepage": "https://frdl.de",
+            "role": "Developer"
         }
     ],
     "support": {

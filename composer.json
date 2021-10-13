@@ -63,25 +63,24 @@
             "vendor/{$vendor}/{$name}/": ["type:library"],
             "plugins/{$vendor}/{$name}/": ["type:oidplus-plugin"],
             "~/.frdl/WORKSPACE/{$name}/": ["type:workspace"],
-            "{$name}": ["type:chunk"]
-        }
+            "{$name}": ["type:chunk"]        
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "https:\/\/api.webfan.de/x0void-container/x0void-token/webfan.pro/codebase/"
+            "url": "https:\/\/api.webfan.de\/x0void-container\/x0void-token\/webfan.pro\/codebase\/"
         }, 
         {
             "type": "composer",
             "url": "https:\/\/packages.frdl.de"
         },  
         {
-            "url": "https://github.com/vendor-patch/nette.reflection.git",
+            "url": "https://github.com\/vendor-patch\/nette.reflection.git",
             "type": "git"
         }, 
         {
             "type": "composer",
-            "url": "https:\/\/premium-integration.webfan.pro/implementation/codebase/php/packages/"
+            "url": "https:\/\/premium-integration.webfan.pro\/implementation\/codebase\/php\/packages\/"
         }  
     ], 
     "config": {  

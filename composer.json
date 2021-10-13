@@ -1,5 +1,5 @@
 {
-    "name": "frdl/codebase",
+    "name": "vendor-patch/codebase-vendor-packages-collection",
     "type": "webfan-shared",
     "description": "Codebase API related packages...",
     "keywords": [ "autoload", "loader", "codebase", "frdlweb", "webfan-module" ,   "webfan-${package.webfantizing}",   "source"],
@@ -69,20 +69,20 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https:\/\/api.webfan.de/apps/packages/"
+            "url": "https:\/\/api.webfan.de/x0void-container/x0void-token/webfan.pro/codebase/"
         }, 
         {
             "type": "composer",
             "url": "https:\/\/packages.frdl.de"
-        }, 
-        {
-            "type": "composer",
-            "url": "https:\/\/directory.frdl.de"
-        }  ,  
+        },  
         {
             "url": "https://github.com/vendor-patch/nette.reflection.git",
             "type": "git"
-        }
+        }, 
+        {
+            "type": "composer",
+            "url": "https:\/\/premium-integration.webfan.pro/implementation/codebase/php/packages/"
+        }  
     ], 
     "config": {  
          "platform-check": false
